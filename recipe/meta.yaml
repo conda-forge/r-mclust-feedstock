@@ -17,7 +17,6 @@ source:
 build:
   number: 0
   skip: true  # [win32]
-  skip: true  # [win32]
 
   rpaths:
     - lib/R/lib/
@@ -46,13 +45,6 @@ about:
     classification, and density estimation, including Bayesian regularization, dimension
     reduction for visualisation, and resampling-based inference.
   license_family: GPL3
-
-extra:
-  recipe-maintainers:
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
 
 extra:
   recipe-maintainers:
