@@ -14,14 +14,16 @@ Summary: Gaussian finite mixture models fitted via EM algorithm for model-based 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-mclust-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-mclust-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-mclust-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-mclust-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-mclust-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-mclust-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-mclust-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-mclust-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-mclust-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-mclust-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-mclust-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-mclust-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-mclust/badges/version.svg)](https://anaconda.org/conda-forge/r-mclust)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-mclust/badges/downloads.svg)](https://anaconda.org/conda-forge/r-mclust)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--mclust-green.svg)](https://anaconda.org/conda-forge/r-mclust) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-mclust.svg)](https://anaconda.org/conda-forge/r-mclust) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-mclust.svg)](https://anaconda.org/conda-forge/r-mclust) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-mclust.svg)](https://anaconda.org/conda-forge/r-mclust) |
 
 Installing r-mclust
 ===================
