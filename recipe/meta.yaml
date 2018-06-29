@@ -1,4 +1,4 @@
-{% set version = "5.4" %}
+{% set version = "5.4.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/mclust_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/mclust/mclust_{{ version }}.tar.gz
-  sha256: 7363057845272a1c2b97c77c89704d9d21f3b4eb9b41b95d1c54018c110e7bc4
+  sha256: c43e19d3df0806c522520260d4de841314548baf91a099a6905bf885a82594ed
 
 build:
   number: 0
