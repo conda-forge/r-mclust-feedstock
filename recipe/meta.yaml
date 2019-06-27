@@ -1,4 +1,4 @@
-{% set version = '5.4.3' %}
+{% set version = "5.4.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mclust_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mclust/mclust_{{ version }}.tar.gz
-  sha256: e69e80786ee71e856fe0b7f7741b0a49503d8433ee92d8f3417ec49f20f3a5a3
+  sha256: ccc31b0ad445e121a447b04988e73232a085c506fcc7ebdf11a3e0754aae3e0d
 
 build:
   merge_build_host: True  # [win]
