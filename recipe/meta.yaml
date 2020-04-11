@@ -1,4 +1,4 @@
-{% set version = '5.4.5' %}
+{% set version = "5.4.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mclust_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mclust/mclust_{{ version }}.tar.gz
-  sha256: 75f2963082669485953e4306ffa93db98335ee6afdc1318b95d605d56cb30a72
+  sha256: d4ffcf36bf709ad42dccb2387263f67ca32012b0707f0ef6eda32730b5c286fc
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -46,12 +46,11 @@ test:
 about:
   home: https://mclust-org.github.io/mclust/
   license: GPL-2
-  summary: Gaussian finite mixture models fitted via EM algorithm for model-based clustering,
-    classification, and density estimation, including Bayesian regularization, dimension
-    reduction for visualisation, and resampling-based inference.
+  summary: Gaussian finite mixture models fitted via EM algorithm for model-based clustering, classification, and density estimation, including Bayesian regularization,
+    dimension reduction for visualisation, and resampling-based inference.
   license_family: GPL2
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
