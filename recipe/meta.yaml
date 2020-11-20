@@ -45,7 +45,7 @@ test:
 
 about:
   home: https://mclust-org.github.io/mclust/
-  license: GPL-2
+  license: GPL-2.0-or-later
   summary: Gaussian finite mixture models fitted via EM algorithm for model-based clustering, classification, and density estimation, including Bayesian regularization, dimension reduction for visualisation, and resampling-based inference.
   license_family: GPL2
   license_file:
