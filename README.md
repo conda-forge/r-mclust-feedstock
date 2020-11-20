@@ -3,7 +3,7 @@ About r-mclust
 
 Home: https://mclust-org.github.io/mclust/
 
-Package license: GPL-2
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mclust-feedstock/blob/master/LICENSE.txt)
 
