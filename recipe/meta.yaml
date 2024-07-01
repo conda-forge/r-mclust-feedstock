@@ -1,4 +1,4 @@
-{% set version = "6.1" %}
+{% set version = "6.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mclust_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mclust/mclust_{{ version }}.tar.gz
-  sha256: 5df469cc4aa2e86bf4282cb83eaa53f90f671aa6567e8778331bf8c1666f9055
+  sha256: ddd7018e5e6ea7f92c7fc9872b391491b7e91c2cd89ef1dcaf4408afb5116775
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
